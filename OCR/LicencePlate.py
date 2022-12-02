@@ -33,6 +33,6 @@ for contour in contours:
 
 cv2.imshow("Image", img)
 t = time.time()
-cv2.imwrite(f'image/x1.jpg', img)
+cv2.imwrite(f'image/x1.jpg', license_img)
 print("test")
 cv2.waitKey(0)
